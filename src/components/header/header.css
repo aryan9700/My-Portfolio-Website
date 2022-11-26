@@ -1,5 +1,5 @@
 header{
-    height: 100vh;
+    height: 130vh;
     padding-top: 7rem;
     overflow: hidden;
 
@@ -40,10 +40,12 @@ header{
     height: 30rem;
     position: absolute;
     left:calc(50%-11rem);
-    margin-top: 4rem;
+    margin-top: 3rem;
+    margin-left: 22rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    
 
 }
 /* ======================scroll down ========================*/
@@ -65,7 +67,8 @@ font-size: 0.9rem;
 /*===========================MEDIA QUERIES(FOR small DEVICES android)============*/
 @media screen and(max-width:600px){
     header{
-        height: 100vh;
+       
+        height: 200vh;
     }
     .header__socials, .scroll__down{
         display: none;

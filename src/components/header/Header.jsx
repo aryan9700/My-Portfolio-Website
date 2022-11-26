@@ -6,19 +6,19 @@ import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
   return (
-    <Header>
-      <div className="container.header__container">
+    <header>
+      <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Aryan Yadav</h1>
-        <h5 classNmae="text-light">Software Developer</h5>
+        <h5 className="text-light">Software Developer</h5>
         <CTA />
-        <HeaderSocials />
+        <HeaderSocials/>
         <div className="me">
           <img src={ME} alt="me"/>
         </div>
-        <a href="#contact" className='scroll_down'>Scroll Down</a>
+        <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>
-    </Header>
+      </header>
   )
 }
 
